@@ -1,6 +1,6 @@
 # Lab 1-1. Q CLI 뭐에 쓰는고?
 ## 개요 
-Amazon Q CLI에 자연어로 서비스를 만들고 Troubleshooting도 가능합니다. 
+Amazon Q CLI에 자연어로 지시해서 원하는 서비스를 만들고 Troubleshooting도 가능합니다. 
 MacOS 또는 Linux 사용자는 Q CLI를 로컬에서 바로 설치할 수 있습니다. 
 [링크](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html)를 클릭하여 Q CLI를 다운로드 할 수 있습니다. 
 
@@ -92,3 +92,4 @@ DynamoDB에 테이블 4개가 모두 생성되었는지, 샘플 데이타가 있
 ```
 리뷰라는 항목을 추가하고싶다. 웹서버와 다이나모 디비 모두 변경해줘.
 ```
+* 웹사이트를 둘러보고 만약 문제가 보이거나 변경하고 싶은 부분이 있다면 자연어로 지시합니다.

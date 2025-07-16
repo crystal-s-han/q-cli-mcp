@@ -1,5 +1,8 @@
 # Lab 1-1. Q CLI 뭐에 쓰는고?
-##개요 
+## 개요 
+Amazon Q CLI에 자연어로 서비스를 만들고 Troubleshooting도 가능합니다. 
+MacOS 또는 Linux 사용자는 Q CLI를 로컬에서 바로 설치할 수 있습니다. 
+[링크](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html)를 클릭하여 Q CLI를 다운로드 할 수 있습니다. 
 
 **Amazon Q CLI 가 설치된 EC2 인스턴스 환경에서 자연어로 인프라를 만듭니다.**
 

@@ -31,7 +31,7 @@ q chat
 * q chat에 가능한 일관된 응답을 받기 위해 Context 를 만들어 보겠습니다. 
 다음과 같이 markdown 파일로 입력합니다.
 ```
-cat > lab01context.md << EOF
+cat > mycontext.md << EOF
 지시사항을 응답 과정에서 명시적으로 참조하라
 너는 AWS를 잘 사용하는 이커머스 서비스 개발자이다.
 가장 간단하고 빠르게 서비스를 만들어낸다.
@@ -48,12 +48,12 @@ EOF
 * 이 컨텍스트 파일을 q chat이 항상 참조하도록 알려주려면 다음과 같이 입력합니다.
 ```
 q chat
-/context add lab01context.md --global
+/context add mycontext.md --global
 ```
 
 * 위의 컨텍스트가 잘 추가 되었는지 확인합니다.
 ```
-/context show --global
+/context show
 ```
 
 * 테스트 환경을 만들기 위해 다음과 같이 q chat에 지시합니다.

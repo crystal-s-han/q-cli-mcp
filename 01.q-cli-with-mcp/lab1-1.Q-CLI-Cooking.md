@@ -4,11 +4,9 @@ Amazon Q CLI에 자연어로 지시해서 원하는 서비스를 만들고 Troub
 MacOS 또는 Linux 사용자는 Q CLI를 로컬에서 바로 설치할 수 있습니다. 
 [링크](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html)를 클릭하여 Q CLI를 다운로드 할 수 있습니다. 
 
-**온라인 쇼핑 데이터를 관리하는 웹서비스를 만들어 보겠습니다.**
+이 랩에서는 온라인 쇼핑 데이터를 관리하는 웹서비스를 만들어 봅니다.DynamoDB로 데이터베이스를 만들고, EC2 인스턴스 로컬에서 서비스를 호스팅 합니다.
 
-DynamoDB로 데이터베이스를 만들고, EC2 인스턴스 로컬에서 서비스를 호스팅 합니다.
-
-Let's go!
+**Let's go!**
 
 * Q CLI의 자연어 쿼리는 다음과 같이 실행합니다.
 ```
